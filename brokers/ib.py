@@ -1,5 +1,3 @@
-import time
-from sqlalchemy import text
 import pandas as pd
 
 class IB():

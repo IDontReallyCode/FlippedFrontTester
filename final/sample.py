@@ -1,5 +1,5 @@
-from algo_backtesting.data.generic import Data
-from algo_backtesting.brokers.ib import IB
+from data.generic import Data
+from brokers.ib import IB
 import pandas as pd
 import os
 
@@ -8,7 +8,7 @@ symbol_data = {}
 source_data = {}
 
 symbol_list = ["AAPL", "MSFT"]
-csv_dir = "C:/Users/nagab/Desktop/big/bactesting/big-backtester"
+csv_dir = "./"
 
 xxx = Data(source_data, symbol_data)
 broker = IB()
